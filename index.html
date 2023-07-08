@@ -246,7 +246,7 @@
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Sumary</h3>
+            <h3 class="resume-title">Summary</h3>
             <div class="resume-item pb-0">
               <h4>Thomas Kummer</h4>
               <p><em>Courses:</em></p>
@@ -310,53 +310,69 @@
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Sumary</h3>
+            <h3 class="resume-title">Personal Projects</h3>
             <div class="resume-item pb-0">
-              <h4>Thomas Kummer</h4>
-              <p><em>Courses:</em></p>
-              <p>AI, Object Oriented Design, Algorithms, Mathematics of Data Models, Computer Systems, Networks and distributed systems, Theory of Computation </p>
-              <p><em>Skills:</em></p>
+              <h4>Neural Network</h4>
+              <h5>Spring 2023</h5>
               <ul>
-                <li>Proficient in Java, C, Python, x86 assembly, TypeScript, React, Racket, html </li>
-                <li>Experience with Linux, Docker, Jupyter Notebooks, TensorFlow, Unity </li>
+                <li>Created on an AI neural network in python that uses reinforcement learning to play the game snake </li>
+                <li>I predicted the best moves using the current direction and the distance to danger, and then saved the best performers of each generation based on our reinforcement algorithm in order to mutated them</li>
+                <li>Used a genetic algorithm to combine the top performers into children with slightly different attributed and repeated </li>
+                <li>After training the snake was able to get over 10 points and actually had a weird property where it learned to moved to the left wall to orientate itself before moving toward the food </li>
+                <li>This code can be perfected and used for applications outside of this game such as a real robot traversing a mapped out room to avoid hazards </li>
               </ul>
             </div>
 
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Northeastern University</h4>
-              <h5>2021 - Present</h5>
-              <p><em>Bachelors of Science in Computer Science</em></p>
+            <div class="resume-item pb-0">
+              <h4>Northeastern Electric Racing</h4>
+              <h5>Fall 2022 - Spring 2023</h5>
               <ul>
-                <li>GPA: 3.9</li>
-                <li>Minor: Economics</li>
-                <li>Academic Honors: Dean’s List, Invited to College Honors in the Discipline</li>
+                <li>Developed a website with a large group to organize the Northeastern Electric Racing car building process: https://finishlinebyner.com/login </li>
+                <li>Learned development of front and back-end software with TypeScript, React, and Docker </li>
+                <li>Used GitHub to work with a large team of developers to complete tickets and submit pull requests with change details  </li>
               </ul>
             </div>
+
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
+            <h3 class="resume-title">Class Projects</h3>
             <div class="resume-item">
-              <h4>Data Scientist</h4>
-              <h5>Summer 2023 - Fall 2023</h5>
-              <p><em>Lockheed Martin, CT</em></p>
+              <h4>TCP Emulator in Python</h4>
+              <h5>Spring 2023</h5>
               <ul>
-                <li>Worked in the Avionics department at Sikorsky analyzing financial data</li>
-                <li>Worked with work order and other databases using MS SQL to pull relevant data and make useful visualizations for management and the manufacturing floor employees</li>
-                <li>Helped develop the usage of Thinaer tracking technology and analyzed work order movement to predict what changes would be most beneficial to productivity</li>
-                <li>Lead part of the Thinaer team teaching employees at other locations how to use the technology to its fullest extent</li>
+                <li>Created a sender and receiver that reliably transfer packets of data using TCP methods</li>
+                <li>Dealt with dropped packets by looking for acks and created a checksum for corrupted packets</li>
+                <li>Used slow start, calculated the RTT, and used the sliding window approach to send data quickly</li>
               </ul>
             </div>
+
             <div class="resume-item">
-              <h4>Picker/Packer</h4>
-              <h5>Summer 2021 - Winter 2022</h5>
-              <p><em>Thule Group, CT</em></p>
+              <h4>Wordle Bot</h4>
+              <h5>Spring 2023</h5>
               <ul>
-                <li>Accurately and quickly retrieved online orders of different products in a warehouse </li>
-                <li>Worked with other picker/packers to ensure orders were correct and complete </li>
-                <li>Filled out paperwork to document everything that was moved </li>
+                <li>Program that creates a client to access a server and plays Wordle</li>
+                <li>Works with both TCP and TLS connections and uses JSON encoding to send and receive messages</li>
               </ul>
             </div>
+
+            <div class="resume-item">
+              <h4>Custom Memory Allocator in C</h4>
+              <h5>Fall 2022</h5>
+              <ul>
+                <li>Wrote a custom malloc, calloc, and free using mmap  </li>
+                <li>Coalesces blocks when freeing and splits pages when memory is available </li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Image Processor in Java</h4>
+              <h5>Summer 2022</h5>
+              <ul>
+                <li>Used object-oriented design principles to create and improve an image processor</li>
+                <li>Designed a GUI to upload and edit pictures as well as show the user data about the image</li>
+              </ul>
+            </div>
+
           </div>
 
           
